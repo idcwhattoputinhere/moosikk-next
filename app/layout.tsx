@@ -4,7 +4,7 @@ import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Rey's Moosikk 🎵",
-  description: "Moosikk Reborn in Next.js!",
+  description: "A lightweight music player built with Next.js.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
   publisher: "Rey",
   openGraph: {
     title: "Rey's Moosikk 🎵",
-    description: "Moosikk Reborn in Next.js!",
+    description: "A lightweight music player built with Next.js.",
     url: "https://github.com/reyansh-khobragade",
     siteName: "Rey's Moosikk",
     images: [
       {
-        url: "https://456bbded-b9c5-4a97-aca2-ca48e8f1d67d-00-3dfutg206osuz.sisko.replit.dev/icon-512.png",
+        url: "https://moosikk.vercel.app/icon-512.png",
         width: 512,
         height: 512,
         alt: "Moosikk Cover",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     description: "Moosikk Reborn in Next.js!",
     creator: "@elonmusk",
     images: [
-      "https://456bbded-b9c5-4a97-aca2-ca48e8f1d67d-00-3dfutg206osuz.sisko.replit.dev/icon-512.png",
+      "https://moosikk.vercel.app/icon-512.png",
     ],
   },
   robots: {
