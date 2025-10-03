@@ -3,7 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   experimental: {
     // forceSwcTransforms: true,
-    serverComponentsExternalPackages: ['yt-search', 'cheerio'],
   },
   images: {
     remotePatterns: [
@@ -11,6 +10,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "i.ytimg.com" },
     ],
   },
+  serverExternalPackages:["cheerio", "yt-search"],
 };
 
 export default nextConfig;
